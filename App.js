@@ -1,10 +1,11 @@
 import React from 'react';
-import UserList from './components/UserList';  // Correct import path
+
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
-    <div>
-      <UserList />
+    <div className="App">
+      <ContactUs/>
     </div>
   );
 }
